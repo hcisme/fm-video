@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: fm-video-admin
+  profiles:
+    active: dev
+
+server:
+  port: 8089
+  servlet:
+    context-path: /api/admin
