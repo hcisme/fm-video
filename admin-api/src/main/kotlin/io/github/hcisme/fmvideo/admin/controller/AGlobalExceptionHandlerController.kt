@@ -1,8 +1,8 @@
 package io.github.hcisme.fmvideo.admin.controller
 
-import io.github.hcisme.fmvideo.admin.entity.enums.ResponseCodeEnum
-import io.github.hcisme.fmvideo.admin.entity.vo.ResponseVO
-import io.github.hcisme.fmvideo.admin.exception.BusinessException
+import io.github.hcisme.fmvideo.common.entity.enums.ResponseCodeEnum
+import io.github.hcisme.fmvideo.common.entity.vo.ResponseVO
+import io.github.hcisme.fmvideo.common.exception.BusinessException
 import io.swagger.v3.oas.annotations.Hidden
 import jakarta.servlet.http.HttpServletRequest
 import org.slf4j.LoggerFactory

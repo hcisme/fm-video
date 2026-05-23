@@ -1,6 +1,6 @@
-package io.github.hcisme.fmvideo.admin.exception
+package io.github.hcisme.fmvideo.common.exception
 
-import io.github.hcisme.fmvideo.admin.entity.enums.ResponseCodeEnum
+import io.github.hcisme.fmvideo.common.entity.enums.ResponseCodeEnum
 
 class BusinessException : RuntimeException {
     override var message: String? = null

@@ -1,6 +1,6 @@
-package io.github.hcisme.fmvideo.admin.entity.query
+package io.github.hcisme.fmvideo.common.entity.query
 
-import io.github.hcisme.fmvideo.admin.entity.enums.PageSizeEnum
+import io.github.hcisme.fmvideo.common.entity.enums.PageSizeEnum
 
 class SimplePage {
     var page: Int = 0

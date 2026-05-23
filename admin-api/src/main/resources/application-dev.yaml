@@ -49,3 +49,14 @@ log:
   path: D:\code\kotlin\fm-video
   root:
     level: info
+
+project:
+  storage:
+    base-folder: D:/code/kotlin/fm-video
+    file-folder: file
+    temp-folder: temp
+    video-folder: video
+  ffmpeg:
+    path: D:/software/ffmpeg-master-latest-win64-gpl/bin/ffmpeg.exe
+    ffprobe-path: D:/software/ffmpeg-master-latest-win64-gpl/bin/ffprobe.exe
+    show-log: false

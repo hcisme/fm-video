@@ -1,4 +1,4 @@
-package io.github.hcisme.fmvideo.admin.entity.vo
+package io.github.hcisme.fmvideo.common.entity.vo
 
 data class ResponseVO<T>(
     var status: String? = null,

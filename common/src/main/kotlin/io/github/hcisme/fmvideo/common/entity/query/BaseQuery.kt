@@ -1,4 +1,4 @@
-package io.github.hcisme.fmvideo.admin.entity.query
+package io.github.hcisme.fmvideo.common.entity.query
 
 open class BaseQuery {
     var simplePage: SimplePage? = null

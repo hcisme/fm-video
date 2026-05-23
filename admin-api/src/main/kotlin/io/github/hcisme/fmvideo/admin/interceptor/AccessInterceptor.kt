@@ -1,9 +1,9 @@
 package io.github.hcisme.fmvideo.admin.interceptor
 
 import io.github.hcisme.fmvideo.admin.annotation.Access
-import io.github.hcisme.fmvideo.admin.entity.enums.ResponseCodeEnum
-import io.github.hcisme.fmvideo.admin.exception.BusinessException
 import io.github.hcisme.fmvideo.admin.redis.getUserInfoByToken
+import io.github.hcisme.fmvideo.common.entity.enums.ResponseCodeEnum
+import io.github.hcisme.fmvideo.common.exception.BusinessException
 import io.github.hcisme.fmvideo.common.redis.RedisUtils
 import jakarta.servlet.http.HttpServletRequest
 import jakarta.servlet.http.HttpServletResponse

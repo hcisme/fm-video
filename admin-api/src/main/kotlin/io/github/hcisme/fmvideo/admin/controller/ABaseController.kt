@@ -1,11 +1,11 @@
 package io.github.hcisme.fmvideo.admin.controller
 
-import io.github.hcisme.fmvideo.admin.entity.enums.ResponseCodeEnum
-import io.github.hcisme.fmvideo.admin.entity.vo.ResponseVO
 import io.github.hcisme.fmvideo.admin.entity.vo.TokenUserInfoVO
-import io.github.hcisme.fmvideo.admin.exception.BusinessException
 import io.github.hcisme.fmvideo.admin.redis.getUserInfoByToken
 import io.github.hcisme.fmvideo.common.Constants
+import io.github.hcisme.fmvideo.common.entity.enums.ResponseCodeEnum
+import io.github.hcisme.fmvideo.common.entity.vo.ResponseVO
+import io.github.hcisme.fmvideo.common.exception.BusinessException
 import io.github.hcisme.fmvideo.common.redis.RedisUtils
 import jakarta.annotation.Resource
 import org.springframework.web.context.request.RequestContextHolder

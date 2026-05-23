@@ -1,4 +1,4 @@
-package io.github.hcisme.fmvideo.admin.entity.enums;
+package io.github.hcisme.fmvideo.common.entity.enums
 
 enum class PageSizeEnum(val size: Int = 0) {
     SIZE10(10),

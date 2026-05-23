@@ -1,4 +1,4 @@
-package io.github.hcisme.fmvideo.admin.entity.enums;
+package io.github.hcisme.fmvideo.common.entity.enums
 
 enum class ResponseCodeEnum(val code: Int, val msg: String) {
     CODE_200(200, "请求成功"),
